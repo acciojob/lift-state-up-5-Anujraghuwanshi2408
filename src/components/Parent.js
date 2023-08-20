@@ -13,7 +13,7 @@ const Parent = () => {
          (!isLoggedIn) &&  <Child setIsLoggedIn = {setIsLoggedIn} />
           }
           {
-            (isLoggedIn) && <p>You are logged in !</p>
+            (isLoggedIn) && <p>You are logged in!</p>
           }
         </div>
     )
